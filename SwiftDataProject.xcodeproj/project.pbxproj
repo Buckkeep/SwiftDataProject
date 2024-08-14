@@ -13,6 +13,7 @@
 		C60367312C6C90EE00159869 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60367302C6C90EE00159869 /* Preview Assets.xcassets */; };
 		C60367382C6C921D00159869 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60367372C6C921D00159869 /* User.swift */; };
 		C603673C2C6CD8AB00159869 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C603673B2C6CD8AB00159869 /* UsersView.swift */; };
+		C603673E2C6CFDD400159869 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = C603673D2C6CFDD400159869 /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C60367302C6C90EE00159869 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C60367372C6C921D00159869 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C603673B2C6CD8AB00159869 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		C603673D2C6CFDD400159869 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,6 @@
 		C603671D2C6C90EA00159869 = {
 			isa = PBXGroup;
 			children = (
-				C603673B2C6CD8AB00159869 /* UsersView.swift */,
 				C60367282C6C90EA00159869 /* SwiftDataProject */,
 				C60367272C6C90EA00159869 /* Products */,
 			);
@@ -56,8 +57,10 @@
 		C60367282C6C90EA00159869 /* SwiftDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				C603673B2C6CD8AB00159869 /* UsersView.swift */,
 				C60367292C6C90EA00159869 /* SwiftDataProjectApp.swift */,
 				C603672B2C6C90EA00159869 /* ContentView.swift */,
+				C603673D2C6CFDD400159869 /* Job.swift */,
 				C603672D2C6C90EE00159869 /* Assets.xcassets */,
 				C603672F2C6C90EE00159869 /* Preview Content */,
 				C60367372C6C921D00159869 /* User.swift */,
@@ -147,6 +150,7 @@
 				C603672A2C6C90EA00159869 /* SwiftDataProjectApp.swift in Sources */,
 				C60367382C6C921D00159869 /* User.swift in Sources */,
 				C603673C2C6CD8AB00159869 /* UsersView.swift in Sources */,
+				C603673E2C6CFDD400159869 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
