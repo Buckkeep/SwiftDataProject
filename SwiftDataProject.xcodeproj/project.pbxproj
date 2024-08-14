@@ -12,6 +12,7 @@
 		C603672E2C6C90EE00159869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C603672D2C6C90EE00159869 /* Assets.xcassets */; };
 		C60367312C6C90EE00159869 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60367302C6C90EE00159869 /* Preview Assets.xcassets */; };
 		C60367382C6C921D00159869 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60367372C6C921D00159869 /* User.swift */; };
+		C603673C2C6CD8AB00159869 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C603673B2C6CD8AB00159869 /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C603672D2C6C90EE00159869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C60367302C6C90EE00159869 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C60367372C6C921D00159869 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C603673B2C6CD8AB00159869 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		C603671D2C6C90EA00159869 = {
 			isa = PBXGroup;
 			children = (
+				C603673B2C6CD8AB00159869 /* UsersView.swift */,
 				C60367282C6C90EA00159869 /* SwiftDataProject */,
 				C60367272C6C90EA00159869 /* Products */,
 			);
@@ -143,6 +146,7 @@
 				C603672C2C6C90EA00159869 /* ContentView.swift in Sources */,
 				C603672A2C6C90EA00159869 /* SwiftDataProjectApp.swift in Sources */,
 				C60367382C6C921D00159869 /* User.swift in Sources */,
+				C603673C2C6CD8AB00159869 /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
